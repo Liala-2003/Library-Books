@@ -30,9 +30,25 @@
   .carousel-item img {
      height: 250px;
 
+
+}
+.footer img {
+     width: 200px;
+     margin: 0 auto;
 }
   }
-
+  .navbar .container {
+     flex-wrap: wrap;
+  }
+.navbar-nav {
+     flex-wrap: wrap;
+}
+.navbar-collapse {
+     flex-basis: 100%;
+}
+.navbar .form-control {
+     max-width: 150px;
+}
 
 .hero {
      background:url(../imag/book4.jpeg) center center/cover  no-repeat;
@@ -143,4 +159,9 @@ border-radius: 20px;
 }
 .icons .icon {
      color: #ff3150;
+}
+.footer img {
+     max-width: 100%;
+     height: auto;
+     display: block;
 }
