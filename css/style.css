@@ -1,0 +1,146 @@
+* {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+     
+}
+/* ////////////////////////////////////////// */
+:root{
+    --dark-color: #19283f;
+    --green-colo:#33d1cc;
+    --red-color:#ff3150;
+    --yellow-color: #ffc400;
+    --section-color :#eff7fa;
+}
+/* ///////// */
+ @media (max-width: 768px) {
+  card .img {
+     height: 200px;
+  }
+  .intro .imge {
+     width: 150px;
+     height: auto;
+  }
+  .hero h1 {
+     font-size: 28px;
+  }
+  .hero p {
+     font-size: 16px;
+  }
+  .carousel-item img {
+     height: 250px;
+
+}
+  }
+
+
+.hero {
+     background:url(../imag/book4.jpeg) center center/cover  no-repeat;
+     height: 100vh;
+   position: relative;
+     color: #eff7fa;
+     padding-top: 80px;
+}
+.navbar {
+     width: 100%;
+     top: 0;
+     left: 0;
+     z-index: 10;
+     background: rgb(21, 131, 113);
+     position: fixed;
+}
+.navbar-brand {
+     font-weight: bold;
+     font-size: 24px;
+}
+.navbar-brand i {
+     margin-right: 8px;
+}
+/* ////////////// */
+
+.intro .imge {
+     border-radius: 50%;
+  width: 200px;
+}
+.card img {
+     height: 250px ;
+     object-fit: cover;
+}
+.img-car p {
+     color:#666161;
+      line-height: 20px;
+     
+}
+div .line {
+     width: 150px;
+     height: 2px;
+     background: #33d1cc;
+     margin: 20px auto ;
+     transition: all 0.5s ease   ;
+  
+}
+ .intro {
+     background-color: #eee;
+}
+.Contact {
+     background-color: #19283f;
+     color: #eee;
+     padding: 20px;
+}
+.Contact input {
+     border: none;
+     border-bottom: 1px solid white;
+}
+.Contact input:hover{
+     border: none;
+     text-decoration: none;
+}
+.Contact .btn {
+     border: none;
+border-radius: 20px;
+}
+
+
+.line:hover{
+     width: 400px;
+        cursor: pointer;
+}
+
+.list-unstyled li {
+     padding:  10px;
+       transition:all 0.3s;
+}
+.list-unstyled  .active {
+     background-color: darkgreen;
+     border-radius: 10px;
+     transition: all 0.3s;
+}
+.list-unstyled li:hover{
+     color: darkgreen;
+     border-bottom: 1px solid darkgreen;
+}
+.list-unstyled  .active:hover{
+     color: white;
+}
+.carousel-item img {
+     height: 500px;
+     object-fit: cover;
+}
+.footer span {
+     color: #19283f;
+}
+.icons {
+     font-size: 30px;
+     align-items: center;
+   
+}
+.icons i {
+     color: #666161;
+}
+.icons i:hover{
+     border-bottom: none;
+     color: white;
+}
+.icons .icon {
+     color: #ff3150;
+}
